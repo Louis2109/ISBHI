@@ -23,7 +23,7 @@ export default function Hero() {
                 Découvrir nos programmes
               </a>
               <a className="btn btn-outline-primary rounded-pill px-4 fw-semibold" href="#contact">
-                Contact rapide
+                Contacter nous
               </a>
             </div>
           </div>
