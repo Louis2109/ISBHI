@@ -11,15 +11,11 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
+const inter = Inter({variable: "--font-inter",  subsets: ["latin"], });
 
 export const metadata: Metadata = {
   title: "ISBHI — Institut Supérieur Bilingue des Hautes Innovations",
-  description:
-    "Landing page officielle de l'ISBHI — Programmes BTS, HND, Licence, Master.",
+  description:  "Landing page officielle de l'ISBHI — Programmes BTS, HND, Licence, Master.",
   applicationName: "ISBHI",
 };
 
@@ -30,8 +26,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${poppins.variable} ${inter.variable} bg-light text-dark`}>
-        <BootstrapClient />
+      <head>
+        <script 
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+          crossOrigin="anonymous"
+          async
+        />
+      </head>
+      <body className={`${poppins.variable} ${inter.variable}`}>
         {children}
       </body>
     </html>

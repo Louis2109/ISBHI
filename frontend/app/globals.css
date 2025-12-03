@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */  /* Désactivé temporairement - conflit avec Bootstrap */
 
 :root {
   --color-primary: #0D47A1;

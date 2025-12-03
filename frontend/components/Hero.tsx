@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section id="hero" className="section-light py-5">
+    <section id="hero" className="section-light py-5" style={{ paddingTop: '80px' }}>
       <div className="container py-4">
         <div className="row align-items-center g-4">
           <div className="col-12 col-lg-6 animate-fadeInUp">
