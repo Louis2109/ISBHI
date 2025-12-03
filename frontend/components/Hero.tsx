@@ -6,13 +6,10 @@ export default function Hero() {
       <div className="container py-4">
         <div className="row align-items-center g-4">
           <div className="col-12 col-lg-6 animate-fadeInUp">
-            <span className="badge-premium shadow-soft">Institut supérieur bilingue</span>
-            <h1 className="display-5 fw-bold mt-3" style={{ color: "var(--color-primary)" }}>
-              Institut Supérieur Bilingue des Hautes Innovations (ISBHI)
-            </h1>
+            <span className="badge-premium shadow-soft"> Institut supérieur bilingue </span>
+            <h1 className="display-5 fw-bold mt-3" style={{ color: "var(--color-primary)" }}> Institut Supérieur Bilingue des Hautes Innovations (ISBHI) </h1>
             <p className="lead text-muted mt-3">
-              Formations de qualité en BTS, HND, Licence et Master. Un environnement d'excellence
-              pour développer vos compétences et devenir acteur de l'innovation.
+              Formations de qualité en BTS, HND, Licence et Master. Un environnement d&apos;excellence pour développer vos compétences et devenir acteur de l&apos;innovation.
             </p>
             <div className="d-flex gap-3 mt-4">
               <div className="badge-premium">+300 étudiants</div>

@@ -49,12 +49,12 @@ export default function Contact() {
             <div className="p-4 bg-white rounded-xl shadow-soft h-100 d-flex flex-column justify-content-between">
               <div>
                 <h5 className="fw-semibold">Coordonnées</h5>
-                <p className="text-muted mb-2">Adresse: (placeholder) Yaoundé, Cameroun</p>
+                <p className="text-muted mb-2">Adresse: Santchou, Cameroun</p>
                 <p className="text-muted mb-2">Email: contact@isbhi.example</p>
-                <p className="text-muted mb-2">Téléphone: +237 600 00 00 00</p>
+                <p className="text-muted mb-2">Téléphone: +237 691 413 728</p>
               </div>
               <div>
-                <a className="btn btn-success rounded-pill px-4 fw-semibold" href="https://wa.me/237600000000" target="_blank" rel="noreferrer">
+                <a className="btn btn-success rounded-pill px-4 fw-semibold" href="https://wa.me/237691413728" target="_blank" rel="noreferrer">
                   <i className="bi bi-whatsapp me-2"></i>Contactez-nous
                 </a>
               </div>
